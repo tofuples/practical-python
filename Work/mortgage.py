@@ -33,5 +33,7 @@ while total > 0: #loop continua até o total a ser pago zerar
     print(total_months, round(total_paid, 2), round(total, 2))  
     
     
-print('Total paid:', round(total_paid, 2))
-print('Total Months:', total_months)
+#print('Total paid:', round(total_paid, 2))
+#print('Total Months:', total_months)
+
+f'The total paid is {round(total_paid,2)} and the total months is {total_months}'
