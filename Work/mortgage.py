@@ -1,6 +1,6 @@
 # mortgage.py
 #
-# Exercise 1.7
+# Exercise 1.17
 
 total = 500000.0
 anual_rate = 0.05

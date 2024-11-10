@@ -22,7 +22,7 @@ list_names.sort(reverse=True) # Reverse order
 print(list_names)
 
 ##EXERCISES
-symbols = 'HPQ,AAPL,IBM,MSFT,YHOO,DOA,GOOG' #some stock symbols
+symbols = 'HPQ,AAPL,IBM,MSFT,YHOO,DOA,GOOG' 
 symlist = symbols.split(',') #Split it into a list of names
 print(symlist)
 

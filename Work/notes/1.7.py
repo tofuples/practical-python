@@ -4,6 +4,7 @@ def hb(name, age):
     print(f'Happy birthday, {name}! You are {age} years old.')
     
 hb('Julie', 24)
+hb('Maria', 27)
 
 def sum(n): 
     total = 0  
@@ -21,3 +22,4 @@ def greeting(name):
 
 greeting('Guido')
 help(greeting)
+

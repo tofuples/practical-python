@@ -7,7 +7,7 @@ import sys
 
 
 cost = 0.0
-with open('Work/Data/portfolio.csv', 'rt') as file:
+with open('Work/Data/portfolio.csv', 'rt') as file:  # rt reading text
     headers = next(file)
     for line in file:
         row = line.split(',')
@@ -16,7 +16,8 @@ with open('Work/Data/portfolio.csv', 'rt') as file:
         cost += shares * price
 
 print(f'Total cost {cost}')  
-        
+
+
 
 #Exercise 1.30
 
@@ -37,7 +38,8 @@ def portfolio_cost(filename):
             
     print('Total cost:', total_cost)
 
-portfolio_cost('Work/Data/missing.csv')
+portfolio_cost('Work/Data/portfolio.csv')
+#portfolio_cost('Work/Data/missing.csv')
 
 # Exercise 1.32
 
